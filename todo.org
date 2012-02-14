@@ -1,0 +1,29 @@
+
+* Algorithms
+
+** Ref-set based
+*** DONE CAI (doublecheck)
+*** TODO RCA
+*** TODO RCA* (?)
+*** TODO CBI
+*** TODO FOP
+*** TODO ICDI
+*** TODO MILC
+
+** Non ref-set based
+*** P
+*** TODO P2
+*** DONE RSCU (doublecheck)
+*** TODO X^2/G
+*** TODO RCBS
+
+* Classes
+** Query
+   - Test sequence(s)
+   - Index choice
+   - Ref-set (if applicable)
+   - Genome (optional)
+     
+** Sequence
+   recycle Seq from BioPython: see [[http://biopython.org/wiki/Seq][BioPython wiki]].
+
