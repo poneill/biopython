@@ -30,6 +30,24 @@ SynonymousCodons = {'CYS': ['TGT', 'TGC'], 'ASP': ['GAT', 'GAC'],
 'VAL': ['GTA', 'GTC', 'GTG', 'GTT'], 'GLU': ['GAG', 'GAA'], 'TYR': ['TAT', 'TAC']}
 
 
+
+class CodonBiasIndex(object):
+    """
+    A general class for computation of codon bias indices
+    
+    This class implements basic methods for computing codon bias indices of all 
+    types, but focusing mainly on those that use codon counts in observed/
+    reference sequences.
+    
+    The class defines only basic methods that are used by all types of indices
+    based on codon counts
+    """
+    
+    def __init__(self):
+        self.index_value = None
+        self.query_sequence = None
+        
+
 class CodonAdaptationIndex(object):
     """A codon adaptaion index (CAI) implementation.
     
