@@ -1,6 +1,8 @@
 
 * Algorithms
 
+*** TODO Think class structure
+
 ** Ref-set based
 *** DONE CAI (doublecheck)
 *** TODO RCA
